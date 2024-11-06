@@ -1,0 +1,25 @@
+.login-button{
+    width: 45%;
+    height: 39px;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+
+    border-radius: 15px;
+    background-color: white;
+}
+
+.Otherlogin-button{
+    width: 45%;
+    height: 39px;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid #3B95FF;
+    background-color: #2138B0;
+    
+}
