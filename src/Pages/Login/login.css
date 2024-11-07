@@ -35,4 +35,39 @@ body {
 }
 
 
-
+.circle {
+    position: absolute;
+    width: 200px; /* Tamaño del círculo */
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.9;
+    z-index: -1;
+  }
+  
+  .circle1 {
+    top: -15%;
+    left: -30%;
+    border: 50px solid white;
+  }
+  
+  .circle2 {
+    top: -7%;
+    right: -15%;
+    width: 90px; /* Tamaño del círculo */
+    height: 90px;
+    border: 15px solid white;
+  }
+  
+  .circle3 {
+    bottom: -7%;
+    left: -15%;
+    width: 90px; /* Tamaño del círculo */
+    height: 90px;
+    border: 15px solid white;
+  }
+  
+  .circle4 {
+    bottom: -15%;
+    right: -35%;
+    border: 50px solid white;
+  }
