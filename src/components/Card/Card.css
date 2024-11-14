@@ -17,14 +17,15 @@
 }
 
 .Phrasecard{
+    margin: 0 auto;
     position: relative;
-    min-width: 250px;
-    height: 178px;
+    min-width: 95%;
+    height: 86px;
     flex-wrap: wrap;
     border-radius: 15px;
     overflow: hidden;
     background-color: black;
-
+    align-self: center;
 }
 
 .Phrasecard img{
