@@ -19,4 +19,23 @@
     font-size: 1rem;
     color: white;
     opacity: .5; 
-  }
+}
+
+.searchBar{
+    margin: 0;
+    width: 90%;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.searchBar::placeholder {
+    padding-left: 15px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: C8C4C4;
+    opacity: .5; 
+}

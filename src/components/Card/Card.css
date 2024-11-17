@@ -1,12 +1,17 @@
+.general-card{
+    flex-wrap: wrap;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: black;
+
+}
+
 .banner{
     position: relative;
     margin: 0 auto;
     width: 90%;
     height: 100%;
-    flex-wrap: wrap;
-    border-radius: 15px;
-    overflow: hidden;
-    background-color: black;
+
 }
 
 
@@ -16,22 +21,18 @@
     position: relative;
     min-width: 95%;
     height: 86px;
-    flex-wrap: wrap;
-    border-radius: 15px;
-    overflow: hidden;
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     align-self: center;
 }
 
 
-.card{
+.video-card{
     position: relative;
     min-width: 250px;
     height: 178px;
-    flex-wrap: wrap;
-    border-radius: 15px;
-    overflow: hidden;
-    background-color: black;
+
    
 }
 
@@ -40,25 +41,32 @@
     position: relative;
     min-width: 174px;
     height: 200px;
-    flex-wrap: wrap;
-    border-radius: 15px;
-    overflow: hidden;
-    background-color: black;
+
 }
 
-.banner img, .phrasecard img, .card img, .short img{
+.banner img, .phrasecard img, .video-card img, .short img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     mask-image: linear-gradient(black 30%, transparent);
 }
 
-.card p, .banner p, .phrasecard p, .short p{
+.phrasecard img{
+
+    mask-image: linear-gradient(rgba(0, 0, 0, 0.411) 100%, transparent);
+}
+
+.video-card p, .banner p, .short p{
     bottom: 10%;
     left: 8px;
     margin: 0;
     color: white;
     position: absolute;
-    
+}
 
+.phrasecard p{
+    margin: 0;
+    color: white;
+    position: absolute;
+    text-align: center;
 }

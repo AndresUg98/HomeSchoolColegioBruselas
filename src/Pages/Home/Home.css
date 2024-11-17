@@ -4,6 +4,20 @@ body{
     width: 100%;
 }
 
+.logo-search-container{
+    width: 92%;
+    margin: 0 auto;
+    height: 52px;
+    display: grid;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    grid-template-columns: 1fr 3fr;
+    
+}
+.logo-container img{
+    width: 80%;
+}
+
 .banner-container{
     width: 100%;
     height: 230px;
