@@ -4,10 +4,24 @@ import { Input } from "../../components/Input";
 import aztecaImagen from "../../assets/images/aztecaImagen.jpg";
 import kameHouse from "../../assets/images/kameHouse.jpg";
 import bruselasLogo from "../../assets/images/BruselasLogo.png";
+import homeIcon from "../../assets/images/Home-icon.png";
+import userIcon from "../../assets/images/User-icon.png";
+import exploreIcon from "../../assets/images/Explore-icon.png";
 
 function Home() {
   return (
     <>
+      <nav className="navbar">
+        <figure>
+          <img src={homeIcon} alt="" srcset="" />
+        </figure>
+        <figure>
+          <img src={userIcon} alt="" srcset="" />
+        </figure>
+        <figure>
+          <img src={exploreIcon} alt="" srcset="" />
+        </figure>
+      </nav>
       <section className="logo-search-container">
         <div className="logo-container">
           <img src={bruselasLogo} alt="" />

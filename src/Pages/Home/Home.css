@@ -4,6 +4,41 @@ body{
     width: 100%;
 }
 
+.navbar{
+    margin: 0;
+    width: 100%;
+    height: 48px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    
+    position: fixed;
+    bottom: 0;
+
+    background-color: #2340D8;
+    border-radius: 15px 15px 0 0;
+    z-index: 1;
+}
+
+.navbar figure{
+ 
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+}
+
+
+.navbar img{
+    margin: 0 auto;
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
 .logo-search-container{
     width: 92%;
     margin: 0 auto;
